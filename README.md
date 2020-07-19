@@ -1,6 +1,8 @@
 # Exploratory Data Analysis
 
-This project was developed in the unit Introduction to Data Science of the Mastre of Data Science from Monash University. We develop an extensive exploratory data analysis about criptocurrencies, Immigration and crimes in Australia. 
+This project was developed in the unit Introduction to Data Science of the Mastre of Data Science from Monash University. We develop an extensive exploratory data analysis about cryptocurrencies, Immigration and crimes in Australia. 
+
+We use primarily pandas in python. The file `EDA.ipynb` contains the analysis and all others are supporting dataset.
 
 
 ## Investigating Natural Increase in Australia's population
