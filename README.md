@@ -1,35 +1,26 @@
 # Exploratory Data Analysis
 
-This project was developed in the unit Introduction to Data Science of the Mastre of Data Science from Monash University. We develop an extensive exploratory data analysis about cryptocurrencies, Immigration and crimes in Australia. 
+This project was developed in the unit Introduction to Data Science of the Master of Data Science from Monash University. We develop an extensive exploratory data analysis about cryptocurrencies, Immigration and crimes in Australia. 
 
 We use primarily pandas in python. The file `EDA.ipynb` contains the analysis and all others are supporting dataset.
 
 
-## Investigating Natural Increase in Australia's population
+## Data
+The following data files used in this task were originally downloaded from the [Australian Bureau of Statistics](https://www.abs.gov.au/):
 
+* `Births.csv` - This file contains yearly data regarding the recorded number of births by Australian state/territory of registration between 1977 and 2016.
+* `Deaths.csv` -This file contains yearly data regarding the recorded number of deaths by Australian state/territory of registration between 1977 and 2016.
+* `TFR.csv` - This file contains yearly data on the recorded average number of births per woman over her lifetime by each state/territory between 1971 and 2016.
+* `NOM.csv` - This data file contains yearly data on the net gain or loss of population through immigration (migrant arrivals) to Australia and emigration (migrant departures) from Australia, for the period between 1977 and 2016.
+* `NIM.csv` - This data file contains yearly data on the net gain or loss of population through the movement of people from one state or territory to another, for the period between 1977 and 2016.
 
-![Imgur](https://i.imgur.com/B0t4heg.png)
+This dataset is publicly available from [data.sa.gov.au](https://data.sa.gov.au/data/dataset/crime-statistics) on a yearly basis:
 
-A polynomial equation of third degree is the best way to model the data of births in Australia.
-over the exercise we were able to explore why linear regressions do not fit complex and cyclical relations between variables. A polynomial equation suits this data because it is able to capture this complex trend. 
+* `Crime_Statistics_SA_2014_2019.csv` - The Crime statistics dataset contains all offences against the person and property that were reported to police between 2014 to 2019 in South Australiansuburbs. The dataset contains information about the crime reported date, suburb incidentoccurred, Postcode, 3 levels of description of the offence, and the offence count.
 
-![Imgur](https://i.imgur.com/MyzL2af.png)
+The last dataset was obtained from the World Bank (world development indicators series about GHG Emissions) [Databank](https://databank.worldbank.org/source/world-development-indicators):
 
-The evolution of Overseas immigration in three Australian states.
+* `Others` - Prices of cryptocurrencies sushc as Bitcoin, Ethereum, Litecoin and so on. 
 
-![Imgur](https://i.imgur.com/Qvmq72X.png)
-
-## Exploratory Analysis of Crime Data in South Australia
-
-Most violent ares from South Australia (excluding Adelaide).
-
-![Imgur](https://i.imgur.com/zLAJzbX.png)
-
-
-## Exploratory Analysis of Criptocurrency Prices
-
-Bitcoin has always been the most popular cryptocurrency. It was the first one and some people are still confused thinking cryptocurrencies, blockchain and bitcoin are the same thing. Due to its popularity, Bitcoin prices are much higher than all other cryptocurrencies.
-This is why we cannot compare criptocurrencies prices over time, the scale between currencies is completely difficult. However, its possible to compare the trend of prices over time, and this is possible putting all currencies in the same scale.
-
-
-![Imgur](https://i.imgur.com/lTuj4As.png)
+## Visualization
+![Imgur](https://i.imgur.com/DFihwCS.jpg)
